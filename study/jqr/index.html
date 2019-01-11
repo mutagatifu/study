@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="../jquery.js"></script>
+</head>
+<body>
+		<button>add</button>
+<p class="parag"></p>
+<script>
+$(document).ready(function(){
+$("body").append('<p>hatarui</P>');
+function addText(){
+	var tes = "hello mavin:<input type='text' placeholder='mine'>";
+	$(".parag").append(tes+"</br>");
+}
+$("button").click(function(){
+	return addText();
+})
+});
+</script>
+</body>
+</html>

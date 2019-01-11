@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>first JS</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="jquery.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<script src="myFine.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<h1>My First Bootstrap Page</h1>      
+		<p>This part is inside a .container-fluid class.</p> 
+		<p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p>    
+		<div class="panel panel-default pan">
+				<div class="panel-heading">Panel Heading</div>
+				<div class="panel-body">Panel Content</div>
+			  </div> 
+			  <div class="rows">
+			  <div class="col-md-4">
+				  <form method="post" action="" enctype="multipart/form-data" class="myForm">
+					<h1 class="formtit">Registration Form</h1>
+						<div class="form-group">
+							<label for="firstName">First Name</label>	
+							<input type="text" name="fname" id="fname">					
+						</div>
+						<div class="form-group">
+							<label for="lastName">Last Name</label>
+							<input type="text" name="lname" id="lname">
+						</div>
+						<div class="form-group">
+							<label for="username">User Name</label>
+							<input type="text" name="uname" id="uname">
+						</div>
+						<div class="form-group">
+							<label for="password">Password</label>
+							<input type="password" name="pword" id="pword">
+						</div>
+						<button type="submit" class="btn btn-default" id="btnsub">Submit</button>
+				  </form>
+			  </div>
+			  <div class="col-md-5">
+					<div class="table-responsive">
+							<table class="table">
+							  <thead class="datt">
+								  <tr>
+									  <th>number</th>
+									  <th>first Name</th>
+									  <th>last Name</th>
+									  <th>User Name</th>
+									  <th>password</th>
+									  <th colspan="2" center>Action</th>
+								  </tr>
+							  </thead>
+							  <tbody class="tableDate">
+							  </tbody>
+							</table>
+						  </div>
+				</div>
+				<div class="col-md-3" id="imgs" class="imgs">
+						<img src="image/employees_service.PNG" class="img-thumbnail imd" alt="Cinque Terre">
+						<img src="image/gacinya.PNG" class="img-thumbnail imd" alt="Cinque Terre">
+						<img src="image/xmas.PNG" class="img-thumbnail imd" alt="Cinque Terre">
+					</div>
+				</div>
+
+				
+				<div id="modalll">
+				<div class="modal fade myForm1" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+						  <div class="modal-content">
+							<div class="modal-header">
+							  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							  </button>
+							</div>
+							<div class="modal-body">
+									<form method="post" action="php/editUser.php" enctype="multipart/form-data" class="myforma">
+										 <h1 class="formtit">Edit the User</h1>		  
+							</div>
+							<div class="modal-footer">
+							  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							  <button type="submit" class="btn btn-primary">Save changes</button>
+							</div>
+							</form>
+						  </div>
+						</div>
+						</div>
+					</div>
+	  </div>
+	  <p id="demo">hatari</p>
+
+<!-- Icons of actions -->
+
+<!-- 	  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+<!------ Include the above in your HEAD tag ---------->
+
+<!-- <div class="container">
+	<div class="row">
+<a href="#" class="btn btn-primary a-btn-slide-text">
+        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+        <span><strong>Add</strong></span>            
+    </a>
+    <a href="#" class="btn btn-primary a-btn-slide-text">
+        <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+        <span><strong>Edit</strong></span>            
+    </a>
+    <a href="#" class="btn btn-primary a-btn-slide-text">
+        <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+        <span><strong>View</strong></span>            
+    </a>
+    <a href="#" class="btn btn-primary a-btn-slide-text">
+       <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+        <span><strong>Delete</strong></span>            
+    </a>
+	</div>
+</div> -->
+</body>
+</html>
